@@ -1,0 +1,20 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Selection color */
+::selection {
+  background: rgba(59, 130, 246, 0.2);
+  color: inherit;
+}
+
+/* Remove horizontal scroll */
+body {
+  overflow-x: hidden;
+}
